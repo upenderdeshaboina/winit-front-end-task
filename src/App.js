@@ -9,7 +9,6 @@ import AllItems from './components/allItems';
 // customer_code TEXT VARCHAR(50),
 // customer_name TEXT VARCHAR(250),
 // order_date DATETIME REAL,
-// total_amount FlOAT DECIMAL(18,3)
 
 const App=()=>(
   <>
