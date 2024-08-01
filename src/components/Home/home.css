@@ -1,0 +1,41 @@
+.table{
+    width: 90%;
+    align-self: center;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.thead td{
+    border:1px solid #000;
+}
+.home-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.status-selection-list{
+    display: flex;
+}
+.status-selection-list li{
+    list-style-type: none;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.select{
+    width: 150px;
+}
+.select-btn-div{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.buttons-container{
+    display: flex;
+    align-self: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+.buttons-container button{
+    width: 100px;
+    padding: 5px;
+}
